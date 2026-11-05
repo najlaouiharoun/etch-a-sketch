@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-items: center;
+    flex: 1 1 auto;
+}
+.row{
+    display: flex;
+    align-self: center;
+    justify-items: center;
+    flex: 1 1 content;
+    min-height: 5px;
+
+}
+.pixel{
+
+    background-color: peachpuff;
+    flex: 1 1 content;
+    min-width: 5px;
+
+}
+.hovered-Pixel{
+    background-color: black;
+}
