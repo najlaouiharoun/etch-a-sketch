@@ -1,5 +1,4 @@
-function generateGrid() {
-    let gridLength = 64
+function generateGrid(gridLength) {
     let container = document.querySelector("#container")
     for (let i = 0; i < gridLength; i++) {
         let row = document.createElement("div")
@@ -14,5 +13,3 @@ function generateGrid() {
         container.appendChild(row)
     }
 }
-generateGrid()
-loadEvents()

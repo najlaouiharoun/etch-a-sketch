@@ -1,31 +1,45 @@
 body{
     display: flex;
     flex-direction: column;
-    align-self: center;
-    justify-items: center;
+    align-items: center;
+    gap: 100px;
+    background-color: peachpuff;
 }
 .container{
     display: flex;
     flex-direction: column;
-    align-self: center;
-    justify-items: center;
-    flex: 1 1 auto;
+    align-items: center;
+    justify-self: center;
+    flex: 1 1 100%;
+    max-height: 500px;
+    min-height:500px;
+    border: 5px solid red;
+
 }
 .row{
     display: flex;
-    align-self: center;
-    justify-items: center;
-    flex: 1 1 content;
-    min-height: 5px;
+    flex: 1 1 100%;
+    max-width: 500px;
+    min-width:500px;
+    
 
 }
 .pixel{
 
-    background-color: peachpuff;
-    flex: 1 1 content;
-    min-width: 5px;
+    background-color: white;
+    flex: 1 1 100%;
 
 }
 .hovered-Pixel{
     background-color: black;
+}
+button{
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
