@@ -4,7 +4,9 @@ function loadEvents() {
     container.addEventListener("mouseover",(event)=> {
         target = event.target
         if(target && target.classList.contains("pixel")){            
-            target.classList.add("hovered-Pixel")
+            //target.classList.add("hovered-Pixel")
+            target.style.backgroundColor = getRandomColor()
+            fadeOut(target)            
         }
     })
 

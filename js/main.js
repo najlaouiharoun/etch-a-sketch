@@ -1,2 +1,2 @@
-generateGrid(16)
+generateGrid()
 loadEvents()

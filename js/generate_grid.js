@@ -1,4 +1,4 @@
-function generateGrid(gridLength) {
+function generateGrid(gridLength = 16) {
     let container = document.querySelector("#container")
     for (let i = 0; i < gridLength; i++) {
         let row = document.createElement("div")
@@ -6,7 +6,6 @@ function generateGrid(gridLength) {
 
         for (let j = 0; j < gridLength; j++) {
             let pixel = document.createElement("div")
-            pixel.id = i + "," + j
             pixel.classList.add("pixel")
             row.appendChild(pixel)
         }
